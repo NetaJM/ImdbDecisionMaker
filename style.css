@@ -1,0 +1,192 @@
+* { 
+  Margin: 0; 
+  Padding: 0;
+  }
+
+
+
+*/
+
+  body {
+
+  background-color: #E5E5E5;
+  }
+
+  .imdb-decider {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 35px;
+    padding: 20px;
+    background-color: #363636;
+    color: #CCA43B;
+
+  }
+
+  /* 1. LANDING PAGE */
+
+.page-text {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  align-content: space-between;
+  align-items: center;
+}
+
+h2 {
+  color: #424242;
+}
+
+/* .page-text h2 {
+ 
+} */
+
+.landing-page-options {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  align-content: center;
+  align-items: center;
+  margin-top: 100px;
+}
+
+.landing-page-btn {
+  background-color: rgba(19, 37, 37, 0.86);
+  color: rgb(242, 239, 229);
+  padding: 40px;
+}
+
+/* PAGE 2 */
+
+
+.page2-options form {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-content: center;
+  align-items: center;
+  margin: 15px;
+  margin-top: 70px; 
+  border: 1px solid black;
+  padding: 20px;
+}
+
+.page2-options input {
+  width: 350px;
+  padding: 12px 20px;
+  background-color: beige;
+  margin: 18px 0;
+}
+
+/* PAGE 3 */
+
+.page3-options form {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: space-around;
+  align-items: flex-start;
+  margin: 15px;
+  margin-top: 70px; 
+  border: 1px solid black;
+  padding: 20px;
+}
+
+.page3-options span {
+  margin: 25px;
+  border: 0.5px solid black;
+  padding: 10px;
+}
+
+.page3-options form label {
+  margin-left: 5px;
+  margin-right: 8px;
+}
+
+.page3-options form input {
+border-radius: 10%;
+}
+
+.page3-submit-btn {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+}
+
+.page3-submit-btn input {
+  margin-top: 15px;
+  padding: 15px;
+}
+
+
+/* PAGE 4 */
+
+.page4-options {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: stretch;
+  align-content: stretch;
+  background-color: azure;
+}
+
+.page4-option h3 {
+  padding: 5px;
+  margin-bottom: 25px;
+}
+
+.page4-option {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  margin: 30px;
+  background-color: blue;
+  padding: 15px;
+}
+
+.page4-submit-btn {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  margin-top: 15px;
+}
+
+.page4-submit-btn input {
+  margin-top: 15px;
+  padding: 15px;
+}
+
+
+/* PAGE 5 */
+
+.result {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+
+.result img {
+  margin-top: 40px;
+  margin-bottom: 20px;
+  max-width: 100%
+}
